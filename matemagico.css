@@ -1,0 +1,42 @@
+#power{position:fixed;top:4em;left:1em;bottom:1em;width:2em;background:#fa0;background:url(powerbg.png) bottom, -webkit-linear-gradient(#f00,#ff0,#af0);border-radius:3px;z-index: -1}
+#powerOn{width:2em;height:100%;background:#111;top:-10px;transition:height .3s;}
+#maxpower{width:2em;text-align: center;height: 1em;position:absolute;top:100%;z-index: 1;margin-top: -2.05em;transition:top .3s;border-bottom:5px solid #f00;padding:0 0 .5em;}
+
+#mate{height:20em;width:14em;position:absolute;top:50%;left:50%;margin:-10em 0 0 -7em}
+#mate .o{line-height: 4em;text-align: center;position: absolute;width:100%;}
+#mate .o p{transition: top .3s, font-size .3s;}
+
+#mate input{top:8em;height:2em;width:100%;position: absolute;text-align: center;font-size: 2em;color:#fff;background:#222;border-radius: 3px}
+
+.c0 #o3 p, .c1 #o0 p, .c2 #o1 p, .c3 #o2 p{top:00em;font-size: 2em}
+.c0 #o2 p, .c1 #o3 p, .c2 #o0 p, .c3 #o1 p{top:01em;font-size: 2.5em}
+.c0 #o1 p, .c1 #o2 p, .c2 #o3 p, .c3 #o0 p{top:02em;font-size: 3em}
+.c0 #o0 p, .c1 #o1 p, .c2 #o2 p, .c3 #o3 p{top:03em;font-size: 3.5em;color:#91ff00;}
+
+#bar{position:fixed;top:4em;right:0;bottom:1em;width:3em;z-index: -1}
+#puntaje{position:absolute;top:0;left:0;width:100%;text-align: center;line-height: 1;transition:top .3s;}
+#puntaje p{font-size: 2em}
+
+iframe{float:left;}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+@media only screen and (min-height: 660px) {
+	body{font-size: 24px}
+}
+
+@media only screen and (min-height: 780px) {
+	body{font-size: 28px}
+}
+
+@media only screen and (max-height: 480px) {
+	body{font-size: 14px}
+}
+
+@media only screen and (max-height: 340px) {
+	#mate{font-size: .7em}
+}
