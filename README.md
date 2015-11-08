@@ -3,7 +3,7 @@ matemagico
 
 Pequeño juego de matemáticas en JS.
 
-![Matemagico Javierbyte](docs/matemagico.png)
+[![Matemagico Javierbyte](docs/matemagico.png)](http://javier.xyz/matemagico/)
 
 Juega Online
-http://javierbyte.com/lab/matemagico/
+http://javier.xyz/matemagico/
